@@ -116,6 +116,6 @@
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
 		"font_minmode"			"HudFontMediumSmall"
-		"fgcolor"				"Green
+		"fgcolor"				"Green"
 	}
 }
