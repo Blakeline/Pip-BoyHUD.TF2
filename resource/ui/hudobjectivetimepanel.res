@@ -42,7 +42,13 @@
 		"image"			"pipboy_overlay"
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
+		
+		if_match
+		{
+			"visible"	"0"
+		}
 	}
+	
 	"TimePanelProgressBar"
 	{
 		"ControlName"			"CTFProgressBar"
