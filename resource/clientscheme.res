@@ -448,8 +448,12 @@ Scheme
 		"VguiScreenCursor"			"255 208 64 255"
 		
 		// PBoy
-		"Green"				"0 255 0 255"
-		"GreenLight"		"76 107 34 50"
+		"Green"					"0 255 0 255"
+		"GreenLight"			"76 107 34 50"
+		"GreenBG"				"93 117 93 255"
+		"GreenArmedBG"			"56 145 56 255"
+		"GreenDraw"				"204 234 204 255"
+		"GreenArmedDraw"		"255 255 255 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
