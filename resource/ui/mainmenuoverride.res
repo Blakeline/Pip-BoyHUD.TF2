@@ -1,3 +1,5 @@
+#base "../../resource/preload.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -317,8 +319,8 @@
 		"depressedBgColor_override"	"GreenArmedBG"
 		"depressedFgColor_override"	"GreenArmedDraw"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 
 		"SubImage"
 		{
@@ -446,12 +448,19 @@
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 		"mouseinputenabled"	"0"
+		
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	
 	"TooltipPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TooltipPanel"
+		"bgcolor_override"	"GreenSolid"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
@@ -459,6 +468,8 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
+		"paintborder"			"0"
+		"paintbackground"		"1"
 		"border"		"MainMenuBGBorder"
 		
 		"TipSubLabel"
@@ -518,6 +529,12 @@
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 		"mouseinputenabled"	"0"
+		
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 
 	"Notifications_ShowButtonPanel"
@@ -1450,6 +1467,12 @@
 			"tileImage"		"1"
 			"drawcolor"		"192 192 192 255"
 			"mouseinputenabled"	"0"
+			
+			"src_corner_height"	"22"				// pixels inside the image
+			"src_corner_width"	"22"
+		
+			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 
 		"TitleLabel"
@@ -1609,6 +1632,12 @@
 				"tileImage"		"1"
 				"drawcolor"		"192 192 192 255"
 				"mouseinputenabled"	"0"
+		
+				"src_corner_height"	"22"				// pixels inside the image
+				"src_corner_width"	"22"
+			
+				"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"5"	
 			}
 
 			"TitleLabel"
@@ -2109,13 +2138,23 @@
 			"RoundedCorners"	"5"
 			
 			"paintbackground"	"1"
+		
+			// default style
+			"defaultBgColor_override"	"GreenBG"
+			"defaultFgColor_override"	"GreenDraw"
+			"border_default"		"GreenSolid"
+				
+			// armed style
+			"armedBgColor_override"	"GreenArmedBG"
+			"armedFgColor_override"	"GreenArmedDraw"
+			"border_armed"		"GreenSolid"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			// depressed style    
+			"depressedBgColor_override"	"GreenArmedBG"
+			"depressedFgColor_override"	"GreenArmedDraw"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"204 234 204 255"
+			"image_armedcolor"	"255 255 255 255"
 
 			"proportionaltoparent"	"1"
 			
@@ -2178,13 +2217,23 @@
 			
 			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
+		
+			// default style
+			"defaultBgColor_override"	"GreenBG"
+			"defaultFgColor_override"	"GreenDraw"
+			"border_default"		"GreenSolid"
+				
+			// armed style
+			"armedBgColor_override"	"GreenArmedBG"
+			"armedFgColor_override"	"GreenArmedDraw"
+			"border_armed"		"GreenSolid"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			// depressed style    
+			"depressedBgColor_override"	"GreenArmedBG"
+			"depressedFgColor_override"	"GreenArmedDraw"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"204 234 204 255"
+			"image_armedcolor"	"255 255 255 255"
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
@@ -2245,13 +2294,23 @@
 			
 			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
+		
+			// default style
+			"defaultBgColor_override"	"GreenBG"
+			"defaultFgColor_override"	"GreenDraw"
+			"border_default"		"GreenSolid"
+				
+			// armed style
+			"armedBgColor_override"	"GreenArmedBG"
+			"armedFgColor_override"	"GreenArmedDraw"
+			"border_armed"		"GreenSolid"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			// depressed style    
+			"depressedBgColor_override"	"GreenArmedBG"
+			"depressedFgColor_override"	"GreenArmedDraw"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"204 234 204 255"
+			"image_armedcolor"	"255 255 255 255"
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
@@ -2313,13 +2372,23 @@
 			
 			
 			"paintbackground"	"1"
+		
+			// default style
+			"defaultBgColor_override"	"GreenBG"
+			"defaultFgColor_override"	"GreenDraw"
+			"border_default"		"GreenSolid"
+				
+			// armed style
+			"armedBgColor_override"	"GreenArmedBG"
+			"armedFgColor_override"	"GreenArmedDraw"
+			"border_armed"		"GreenSolid"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			// depressed style    
+			"depressedBgColor_override"	"GreenArmedBG"
+			"depressedFgColor_override"	"GreenArmedDraw"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"204 234 204 255"
+			"image_armedcolor"	"255 255 255 255"
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
@@ -2342,7 +2411,7 @@
 	
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
@@ -2352,8 +2421,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"pipboy_overlay"
-		"tileImage"		"1"
+		"scaleImage"	"1"
+		"tileImage"		"0"
 		"mouseinputenabled"	"0"
+		
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}				
 	"FooterLine"
 	{
@@ -2414,8 +2490,8 @@
 		"depressedBgColor_override"	"GreenArmedBG"
 		"depressedFgColor_override"	"GreenArmedDraw"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2487,12 +2563,12 @@
 		"armedFgColor_override"	"GreenArmedDraw"
 		"border_armed"		"GreenSolid"
 		
-		// depressed style    
+		// depressed style    	
 		"depressedBgColor_override"	"GreenArmedBG"
 		"depressedFgColor_override"	"GreenArmedDraw"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2551,8 +2627,8 @@
 		// depressed style    
 		"depressedBgColor_override"	"GreenArmedBG"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2610,8 +2686,8 @@
 		// depressed style    
 		"depressedBgColor_override"	"GreenArmedBG"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2669,8 +2745,8 @@
 		// depressed style    
 		"depressedBgColor_override"	"GreenArmedBG"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2726,8 +2802,8 @@
 		// depressed style    
 		"depressedBgColor_override"	"GreenArmedBG"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2785,8 +2861,8 @@
 		// depressed style    
 		"depressedBgColor_override"	"GreenArmedBG"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2844,8 +2920,8 @@
 		// depressed style    
 		"depressedBgColor_override"	"GreenArmedBG"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2903,8 +2979,8 @@
 		// depressed style    
 		"depressedBgColor_override"	"GreenArmedBG"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2962,8 +3038,8 @@
 		// depressed style    
 		"depressedBgColor_override"	"GreenArmedBG"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3020,8 +3096,8 @@
 		// depressed style    
 		"depressedBgColor_override"	"GreenArmedBG"
 		
-		"image_drawcolor"	"GreenDraw"
-		"image_armedcolor"	"GreenArmedDraw"
+		"image_drawcolor"	"204 234 204 255"
+		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

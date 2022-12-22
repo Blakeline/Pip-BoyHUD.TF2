@@ -51,7 +51,7 @@
 	}
 	"PlayerStatusHealthImageScanBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"70"
 		"xpos_minmode"	"58"
@@ -63,6 +63,12 @@
 		"enabled"		"1"
 		"image"			"pipboy_overlay"
 		"scaleImage"	"1"	
+		
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	"PlayerStatusHealthBonusImage"
 	{
@@ -115,7 +121,7 @@
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	

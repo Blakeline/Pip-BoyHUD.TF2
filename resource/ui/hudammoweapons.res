@@ -18,7 +18,13 @@
 		"teambg_2"		"pipboy_overlay"
 		"teambg_2_lodef"	"pipboy_overlay"
 		"teambg_3"		"pipboy_overlay"
-		"teambg_3_lodef"	"pipboy_overlay"			
+		"teambg_3_lodef"	"pipboy_overlay"	
+		
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"			
 	}
 	"HudWeaponLowAmmoImage"
 	{
@@ -39,6 +45,12 @@
 		"teambg_2_lodef"	"pipboy_overlay"
 		"teambg_3"		"pipboy_overlay"
 		"teambg_3_lodef"	"pipboy_overlay"
+		
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	"AmmoInClip"
 	{

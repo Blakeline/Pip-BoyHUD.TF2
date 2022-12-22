@@ -245,9 +245,16 @@
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 		
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+		
 		if_mvm
 		{
-			"visible"		"0"
+			"ypos"			"0"
+			"tall"			"447"
 		}
 	}
 	
@@ -752,6 +759,9 @@
 		
 		if_mvm
 		{
+			"xpos"			"0"
+			"ypos"			"373"
+			"wide"			"640"
 			"visible"		"1"
 		}
 	}

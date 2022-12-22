@@ -32,6 +32,12 @@
 		"enabled"		"1"
 		"image"			"pipboy_overlay"
 		"scaleImage"	"1"	
+		
+		"if_mvm"
+		{
+			"xpos"			"c-80"
+			"wide"			"140"
+		}
 	}
 	
 	"LeftSideBG"

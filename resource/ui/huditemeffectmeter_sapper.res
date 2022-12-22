@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 //		"x_offset"		"40"
-		"xpos"			"r258"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
+		"xpos"			"r138"	[$WIN32]
+		"ypos"			"r72"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos_minmode"	"r83"	[$WIN32]
 		"xpos"			"r194"	[$X360]
@@ -22,11 +22,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
+		"xpos"			"43"
+		"ypos"			"20"
 		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"34"
+		"tall"			"16"
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
@@ -42,8 +42,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"ypos"					"25"
+		"xpos"					"44"
+		"ypos"					"20"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -53,11 +53,11 @@
 		"visible_minmode"		"1"
 		"ypos_minmode"			"1"
 		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
+		"textAlignment_minmode"	"south-west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
-		"textAlignment"			"center"
+		"textAlignment"			"south-west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
@@ -68,8 +68,8 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"47"
-		"ypos"					"23"
+		"xpos"					"44"
+		"ypos"					"22"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
@@ -83,5 +83,6 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"bgcolor_override"		"GreenLight"
 	}					
 }

@@ -129,7 +129,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				"fgcolor"		"Green"
 					
 				if_mvm
 				{
@@ -289,6 +289,7 @@
 				if_mvm
 				{
 					"visible"		"1"
+					"image"			"pipboy_overlay"
 				}
 				
 				if_competitive
@@ -321,6 +322,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"hud/checkmark"
+				"drawcolor_override"	"Green"
 				"scaleImage"	"1"
 
 				if_mvm
@@ -359,7 +361,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
+				"fgcolor_override"		"Green"
 				
 				if_competitive
 				{
@@ -387,7 +389,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
-				"fgcolor"		"0 255 0 255"
+				"fgcolor_override"		"Green"
 				
 				if_mvm
 				{	
@@ -429,23 +431,6 @@
 				}
 			}
 		}
-	}
-	
-	"ItemBackground"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemBackground"
-		"xpos"			"c-255"
-		"ypos"			"105"
-		"zpos"			"12"
-		"wide"			"155"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"pipboy_overlay"
-		"tileImage"		"1"
-		"drawcolor"		"192 192 192 255"
 	}
 	
 	"HudTournamentBG"
